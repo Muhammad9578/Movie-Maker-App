@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Drag">
+        <attr name="handle_id" format="integer" />
+    </declare-styleable>
+    <!-- <declare-styleable name="ExpandIconView">
+         <attr name="eiv_roundedCorners"><item>8</item></attr>
+         <attr name="eiv_switchColor"><item>8</item></attr>
+         <attr name="eiv_color"><item>16</item></attr>
+         <attr name="eiv_colorMore"><item>16</item></attr>
+         <attr name="eiv_colorLess"><item>16</item></attr>
+         <attr name="eiv_animationDuration"><item>4</item></attr>
+         <attr name="eiv_padding"><item>64</item></attr>
+     </declare-styleable>-->
+
+    <declare-styleable name="ExpandIconView">
+        <attr name="eiv_roundedCorners" format="boolean" />
+        <attr name="eiv_switchColor" format="boolean" />
+        <attr name="eiv_color" format="color" />
+        <attr name="eiv_colorMore" format="color" />
+        <attr name="eiv_colorLess" format="color" />
+        <attr name="eiv_colorIntermediate" format="color" />
+        <attr name="eiv_animationDuration" format="integer" />
+        <attr name="eiv_padding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="VerticalSlidingPanel">
+        <attr name="panelHeight" format="dimension" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="parallaxOffset" format="dimension" />
+        <attr name="fadeColor" format="color" />
+        <attr name="flingVelocity" format="integer" />
+        <attr name="dragView" format="reference" />
+        <attr name="overlay" format="boolean" />
+    </declare-styleable>
+
+    <!--<declare-styleable name="VerticalSlidingPanel">
+        <attr name="dragView"><item>1</item></attr>
+        <attr name="fadeColor"><item>16</item></attr>
+        <attr name="flingVelocity"><item>4</item></attr>
+        <attr name="overlay"><item>8</item></attr>
+        <attr name="panelHeight"><item>64</item></attr>
+        <attr name="paralaxOffset"><item>64</item></attr>
+        <attr name="parallaxOffset"><item>64</item></attr>
+        <attr name="shadowHeight"><item>64</item></attr>
+    </declare-styleable>-->
+
+    <declare-styleable name="ScaleCardLayout">
+        <attr name="aspectRatioWidth" format="integer" />
+        <attr name="aspectRatioHeight" format="integer" />
+    </declare-styleable>
+    <!--<declare-styleable name="ScaleCardLayout">
+    <attr name="aspectRatioWidth"><item>4</item></attr>
+    <attr name="aspectRatioHeight"><item>4</item></attr>
+    </declare-styleable>-->
+</resources>

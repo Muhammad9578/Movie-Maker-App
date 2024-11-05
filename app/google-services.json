@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "532107564962",
+    "firebase_url": "https://chat-module-7022e-default-rtdb.firebaseio.com",
+    "project_id": "chat-module-7022e",
+    "storage_bucket": "chat-module-7022e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532107564962:android:6dbc2df7b240dc3d7f84fb",
+        "android_client_info": {
+          "package_name": "com.creativetechnologies.slideshows.videos.songs.videomaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532107564962-f8l1ikm2himg2em2okdg94tt08h1mlho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATiW3aO9MxBnsUGCy0e5jQ9JApMii9fuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532107564962-f8l1ikm2himg2em2okdg94tt08h1mlho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

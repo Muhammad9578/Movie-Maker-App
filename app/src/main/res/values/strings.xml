@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Video Maker</string>
+
+    <!-- google -->
+<!--    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="inter_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="native_ad_id">ca-app-pub-3940256099942544/2247696110</string>-->
+
+    <string name="banner_ad_unit_id">ca-app-pub-9628073455744967/9612723721</string>
+    <string name="inter_ad_unit_id">ca-app-pub-9628073455744967/4360397049</string>
+    <string name="native_ad_id">ca-app-pub-9628073455744967/8187729904</string>
+
+    <string name="title">Video Maker</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="Photo">Choose Photo</string>
+
+    <string name="Magic_Size">Auto Erase Portion</string>
+    <string name="magic">Auto</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="try_again">try again</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="Myphotos">My Photos</string>
+    <string name="Favourite">Favourite</string>
+    <string name="rate_app">Rate App</string>
+    <string name="confirm_leave">Are you sure to leave this page?</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+    <string name="permission_denied">Permission was denied. Please consider granting it in order to use all features.</string>
+    <string name="permission_denied_never_ask_again">Permission was denied with never ask again.</string>
+    <string name="permission"><b>Permissions</b></string>
+    <string name="message">
+        <b>  1. READ_EXTERNAL_STORAGE: </b> Access External Storage to select
+        images to make video. \n
+        <b>  2. WRITE_EXTERNAL_STORAGE: </b>Access External Storage to Save
+        Video into gallery. \n
+        <b>  3. Camera: </b>Access phone camera to take picture. \n
+        <b>  4. Internet: </b>Access Network state to show useful ADs. \n
+        <b>  5. Vibrate: </b>Vibrate phone while drag images to adjust position.
+    </string>
+</resources>

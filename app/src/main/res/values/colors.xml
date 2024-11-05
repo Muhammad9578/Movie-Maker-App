@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#df1720</color>
+    <color name="colorPrimaryDark">#df1720</color>
+    <color name="colorAccent">#df1720</color>
+
+    <color name="un_selected">#5B3B3D</color>
+    <!--<color name="bg_opesity">#4DF9DADB</color>-->
+    <color name="color_red">#EC2F2F</color>
+    <color name="color_green">#53EC2F</color>
+
+    <color name="question_color">#3F51B5</color>
+
+    <color name="selection_color">#44292B</color>
+
+    <color name="black">#000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="pink">#ffffc0cb</color>
+
+    <color name="bg_color">#e6e6e6</color>
+    <color name="text_color">#646464</color>
+
+    <color name="hint_foreground_material_light">#00000000</color>
+    <color name="hint_foreground_material_dark">#00000000</color>
+
+    <color name="fab_press">#1f6291</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray">#999999</color>
+    <color name="light_Grey">#AAAAAA</color>
+    <color name="colorBlack">#000</color>
+    <color name="light_black">#aeaeae</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="camera_bg_color">#29C6DB</color>
+    <color name="gallery_bg_color">#8557FE</color>
+    <color name="free_bg_color">#FF6F42</color>
+    <color name="more_bg_color">#03C855</color>
+
+    <color name="header_font_color">#ffffff</color>
+    <color name="btn_text_color">#585757</color>
+    <color name="videotimeduration">#ffffff</color>
+    <color name="m_black_less_than_40_opacity">#60000000</color>
+    <color name="purvis_grey">#ff333333</color>
+    <color name="mycolor">#27B3C0</color>
+    <color name="app_bg_color">#282828</color>
+
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="colorButtonNormal">#FFFFFB</color>
+    <color name="textColorPrimary">#FFFFFB</color>
+    <color name="textColorPrimaryInverse">#1C1C1C</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="divider">#333333</color>
+
+</resources>

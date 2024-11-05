@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.creativetechnologies.slideshows.videos.songs.videomaker.view.ScaleCardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:visibility="visible"
+    app:aspectRatioHeight="1"
+    app:aspectRatioWidth="1"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="4dp">
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_card_transparent"
+        android:clickable="true" />
+
+    <CheckBox
+        android:id="@+id/cbSelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/imageView1"
+        android:background="@drawable/folder_selection"
+        android:button="@drawable/below_shadow"
+        android:checked="true" />
+
+    <View
+        android:id="@+id/clickableView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_card_transparent"
+        android:clickable="true" />
+
+</com.creativetechnologies.slideshows.videos.songs.videomaker.view.ScaleCardLayout>

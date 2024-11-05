@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.creativetechnologies.slideshows.videos.songs.videomaker">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:node="replace" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:node="replace" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/finalicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="LockedOrientationActivity">
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTranslucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.SplashMenuActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.PhotoPickupImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.FinalPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.TwoDEffectListActvity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.EffectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.MoreEffectListActvity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.CustomSlideActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.StickerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.FontActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.PhotoPickupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.AlbumImagesActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.service.ThreeDPreviewCreatorService" />
+        <service android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.service.SaveVideoService" />
+        <service android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.service.TwoDPreviewCreatorService" />
+        <service android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.service.MorePreviewCreatorService" />
+
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.PickupAudioFile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.SaveVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.MyVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.HomePageActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.CropActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.SelectedPhotoArrangeActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.FullScreenAdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.creativetechnologies.slideshows.videos.songs.videomaker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name="com.creativetechnologies.slideshows.videos.songs.videomaker.share.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.NOTIFY" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

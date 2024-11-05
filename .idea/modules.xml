@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="moive-maker-new/app" />
+      <module fileurl="file://$PROJECT_DIR$/imagelibrary/imagelibrary.iml" filepath="$PROJECT_DIR$/imagelibrary/imagelibrary.iml" group="moive-maker-new/imagelibrary" />
+      <module fileurl="file://$PROJECT_DIR$/moive-maker-new.iml" filepath="$PROJECT_DIR$/moive-maker-new.iml" group="moive-maker-new" />
+      <module fileurl="file://$PROJECT_DIR$/universalvideoview/universalvideoview.iml" filepath="$PROJECT_DIR$/universalvideoview/universalvideoview.iml" group="moive-maker-new/universalvideoview" />
+    </modules>
+  </component>
+</project>

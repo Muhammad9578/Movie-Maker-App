@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_upload_to_youtube"
+        android:showAsAction="always"
+        android:title="upload_to_youtube"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_share_native"
+        android:showAsAction="always"
+        android:title="share_native" />
+    <item
+        android:id="@+id/action_delete"
+        android:showAsAction="always"
+        android:title="delete" />
+</menu>
