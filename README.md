@@ -1,0 +1,2 @@
+A powerful movie maker app that allows users to create stunning 2D and 3D videos by selecting multiple images from their gallery or capturing new ones with the camera. The app offers a wide range of creative tools, including multiple effects, stickers, music, and other exciting features to enhance videos. 
+Whether for fun, memories, or professional use, it provides an intuitive interface for creating unique, personalized videos with ease.
